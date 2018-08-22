@@ -1,0 +1,22 @@
+/member		隊員
+	list.php			隊員狀態
+	map.php				地圖
+/mission	任務
+	/list.php			任務清單
+	/item.php?mid=0		任務詳細資訊
+	/new.php			新增任務
+/report		回報
+	report.php			回報一覽表
+/tool		道具
+	/list.php			道具清單
+	/item.php?tid=0		道具詳細資訊
+	/new.php			新增道具
+/clue		線索
+	/list.php			線索清單
+	/item.php?cid=0		線索詳細資訊
+	/new.php			新增線索
+/system		系統
+	/status.php			系統狀態
+		SELECT COUNT(*) FROM INFORMATION_SCHEMA.PROCESSLIST
+		SELECT * FROM `GLOBAL_STATUS` WHERE `VARIABLE_NAME` = "THREADS_CONNECTED"
+	/settings.php		設定
