@@ -124,6 +124,10 @@
         $('a[href="/run/admin/pages/member/map.php"]').parent().parent().removeClass("collapse");
     });
     </script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAQzfAGUZKKu4bRH1wNsekrK1JeKMm6YQ&callback=initMap">
+    </script>
 </body>
 
 </html>
